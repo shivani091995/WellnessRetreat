@@ -1,54 +1,53 @@
-Wellness Retreats
-Description
-The Wellness Retreats application is a React-based web app designed to help users find and explore various Yoga Boot Camps which are several days courses designed to go on different yoga retreats like:
+# Wellness Retreats
+## Description
+The Wellness Retreats application is a React-based web app designed to help users find and explore various yoga boot camps, which are several-day courses designed to go on different yoga retreats like:
 
-Mental Wellness
-Chronic pain Management
-Stress Relief camps
-Weight loss courses
-Pre/Post Natal yoga and detox retreats
-Spiritual Growth and many more.
-The app features search and filter functionalities, along with pagination to manage and view a list of retreats. It also includes a hero section and card-based layout for displaying retreat details such as location, dates, and prices of each course.
+- Mental Wellness
+- Chronic pain management
+- Stress relief camps
+- Weight loss courses
+- Pre/Post Natal yoga and detox retreats
+- Spiritual growth and many more.
 
-Features
-Search: Search for retreats by title.
-Filter: Filter retreats by tags and year.
-Pagination: Navigate through pages of retreats.
-Responsive Design: Optimized for various screen sizes.
-Installation
+
+The app features search and filter functionalities, along with pagination to manage and view a list of retreats. It also includes a hero section and card-based layout for displaying retreat details such as location, dates, and prices for each course.
+
+## Features
+1. Search: Search for retreats by title.
+2. Filter: Filter retreats by tags and year.
+3. Pagination: Navigate through pages of retreats.
+4. Responsive Design: Optimized for various screen sizes.
+
+
+## Installation
 To run this project locally, follow these steps:
 
-Clone the Repository
+1. Clone the Repository
+```git clone https://github.com/your-username/wellness-retreats.git```
 
-bash
-Copy code
-git clone https://github.com/your-username/wellness-retreats.git
-Navigate to the Project Directory
+2. Navigate to the Project Directory
+```cd wellness-retreats```
 
-bash
-Copy code
-cd wellness-retreats
-Install Dependencies: To install all the dependencies, use this command or simply type “npm i”
+3. Install Dependencies: To install all the dependencies, use this command or simply type “npm i"
+```npm install```
 
-bash
-Copy code
-npm install
-Run the Development Server
+4. Run the Development Server
+```npm start```
 
-bash
-Copy code
-npm start
 The app will be available at http://localhost:3000.
 
-Dependencies
-React
-HTML and CSS
-Axios for API requests
-API
-The app fetches retreat data from the following API endpoint:
+## Tech Stack
+- React
+- HTML and CSS
+- Axios for API requests
+- JavaScript
 
-GET https://669f704cb132e2c136fdd9a0.mockapi.io/api/v1/retreats
-Usage
-Search: Enter text in the search bar to find retreats by title.
-Filter: Use the dropdowns to filter by tag and year.
-Pagination: Use the Previous and Next buttons to navigate through pages.
+  
+## API
+The app fetches retreat data from the following API endpoint:
+`GET https://669f704cb132e2c136fdd9a0.mockapi.io/api/v1/retreats`
+
+## Usage
+- Search: Enter text in the search bar to find retreats by title.
+- Filter: Use the dropdowns to filter by tag and year.
+- Pagination: Use the Previous and Next buttons to navigate through pages.
