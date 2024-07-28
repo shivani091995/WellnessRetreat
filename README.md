@@ -1,6 +1,6 @@
-# Wellness Retreats
+# Wellness Retreat
 ## Description
-The Wellness Retreats application is a React-based web app designed to help users find and explore various yoga boot camps, which are several-day courses designed to go on different yoga retreats like:
+The Wellness Retreat application is a React-based web app designed to help users find and explore various yoga boot camps, which are several-day courses designed for mental as well as physical wellbeing. The app includes courses like:
 
 - Mental Wellness
 - Chronic pain management
@@ -10,7 +10,7 @@ The Wellness Retreats application is a React-based web app designed to help user
 - Spiritual growth and many more.
 
 
-The app features search and filter functionalities, along with pagination to manage and view a list of retreats. It also includes a hero section and card-based layout for displaying retreat details such as location, dates, and prices for each course.
+The app features search and filter functionalities, along with pagination to manage and view a list of retreats. It also includes a card-based layout for displaying retreat details such as location, date, and price for each course.
 
 ## Features
 1. Search: Search for retreats by title.
