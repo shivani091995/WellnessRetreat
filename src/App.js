@@ -18,7 +18,7 @@ const App = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await axios.get('https://669f704cb132e2c136fdd9a0.mockapi.io/api/v1/retreats');
+      const response = await axios.get('http://localhost:3001/retreats');
       setRetreats(response.data);
       setFilteredRetreats(response.data);
       setResultsCount(response.data.length);

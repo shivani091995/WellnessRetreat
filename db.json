@@ -1,0 +1,154 @@
+{
+  "retreats": [
+    {
+      "id": "1",
+      "title": "Yoga Retreat in Bali",
+      "description": "Experience tranquility and wellness at our Bali yoga retreat.",
+      "date": 1672531200,
+      "location": "Bali, Indonesia",
+      "price": 1200,
+      "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=1840&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tag": ["yoga", "weekend"]
+    },
+    {
+      "id": "2",
+      "title": "Meditation Retreat in India",
+      "description": "Join our meditation retreat in India for a transformative journey.",
+      "date": 1640995200,
+      "location": "Rishikesh, India",
+      "price": 800,
+      "image": "https://images.unsplash.com/photo-1524863479829-916d8e77f114?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tag": ["meditation", "detox"]
+    },
+    {
+      "id": "3",
+      "title": "Detox and Wellness Escape",
+      "description": "Detox your mind and body at our exclusive wellness retreat.",
+      "date": 1704067200,
+      "location": "Tuscany, Italy",
+      "price": 1500,
+      "image": "https://images.unsplash.com/photo-1549576490-b0b4831ef60a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tag": ["detox", "weekend"]
+    },
+    {
+      "id": "4",
+      "title": "Urban Yoga Experience",
+      "description": "Find peace in the city with our urban yoga sessions.",
+      "date": 1672531200,
+      "location": "New York, USA",
+      "price": 1000,
+      "image": "https://images.unsplash.com/photo-1528715471579-d1bcf0ba5e83?q=80&w=1793&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tag": ["yoga", "meditation"]
+    },
+    {
+      "id": "5",
+      "title": "Luxury Wellness Retreat",
+      "description": "Indulge in luxury while rejuvenating your body and mind.",
+      "date": 1735689600,
+      "location": "Maldives",
+      "price": 2000,
+      "image": "https://images.unsplash.com/photo-1610344264630-e77bc4bf5983?q=80&w=1915&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tag": ["detox", "yoga"]
+    },
+    {
+      "id": "6",
+      "title": "Weekend Meditation Getaway",
+      "description": "Short but immersive meditation retreat to reconnect with yourself.",
+      "date": 1672531200,
+      "location": "Sedona, USA",
+      "price": 900,
+      "image": "https://images.unsplash.com/photo-1600618528240-fb9fc964b853?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tag": ["meditation", "weekend"]
+    },
+    {
+      "id": "7",
+      "title": "Holistic Wellness Journey",
+      "description": "A holistic approach to wellness with yoga, meditation, and detox.",
+      "date": 1767225600,
+      "location": "Costa Rica",
+      "price": 1800,
+      "image": "https://images.unsplash.com/photo-1520769945061-0a448c463865?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tag": ["yoga", "meditation", "detox"]
+    },
+    {
+      "id": "8",
+      "title": "Serene Yoga Retreat",
+      "description": "A peaceful weekend of yoga and meditation in the mountains.",
+      "date": 1735689600,
+      "location": "Himalayas, India",
+      "price": 299,
+      "image": "https://images.unsplash.com/photo-1574783797570-ebe8c0dada82?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tag": "yoga"
+    },
+    {
+      "id": "9",
+      "title": "Detox & Wellness",
+      "description": "A holistic detox program for mind and body rejuvenation.",
+      "date": 1728000000,
+      "location": "Bali, Indonesia",
+      "price": 499,
+      "image": "https://images.unsplash.com/photo-1653827479853-b810aed2e911?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tag": "detox"
+    },
+    {
+      "id": "10",
+      "title": "Weekend Meditation Escape",
+      "description": "A guided meditation retreat for stress relief and clarity.",
+      "date": 1732502400,
+      "location": "Goa, India",
+      "price": 199,
+      "image": "https://plus.unsplash.com/premium_photo-1725983651130-40bc371d5843?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tag": "meditation"
+    },
+    {
+      "id": "11",
+      "title": "Mountain Adventure & Yoga",
+      "description": "Experience adventure sports and yoga in a scenic mountain setting.",
+      "date": 1740806400,
+      "location": "Swiss Alps, Switzerland",
+      "price": 699,
+      "image": "https://images.unsplash.com/photo-1711582025170-151c4f8142fd?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tag": "yoga"
+    },
+    {
+      "id": "12",
+      "title": "Oceanfront Wellness Retreat",
+      "description": "A coastal retreat with yoga, spa, and organic meals.",
+      "date": 1748476800,
+      "location": "Malibu, California",
+      "price": 899,
+      "image": "https://images.unsplash.com/photo-1646600011837-9eb579291695?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tag": "wellness"
+    },
+    {
+      "id": "13",
+      "title": "Mindfulness & Silence Retreat",
+      "description": "A week-long silent retreat to cultivate mindfulness and inner peace.",
+      "date": 1756147200,
+      "location": "Kyoto, Japan",
+      "price": 599,
+      "image": "https://images.unsplash.com/photo-1709125885142-de8f40230c8d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tag": "meditation"
+    },
+    {
+      "id": "14",
+      "title": "Nature & Detox Retreat",
+      "description": "A deep cleanse with organic food, hikes, and holistic therapies.",
+      "date": 1763827200,
+      "location": "Costa Rica",
+      "price": 750,
+      "image": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tag": "detox"
+    },
+    {
+      "id": "15",
+      "title": "Rejuvenation Yoga Camp",
+      "description": "A week-long yoga retreat for complete body and soul rejuvenation.",
+      "date": 1771411200,
+      "location": "Kerala, India",
+      "price": 550,
+      "image": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tag": "yoga"
+    }
+  ]
+}
