@@ -1,53 +1,133 @@
 # Wellness Retreat
+
 ## Description
-The Wellness Retreat application is a React-based web app designed to help users find and explore various yoga boot camps, which are several-day courses designed for mental as well as physical wellbeing. The app includes courses like:
 
-- Mental Wellness
-- Chronic pain management
-- Stress relief camps
-- Weight loss courses
-- Pre/Post Natal yoga and detox retreats
-- Spiritual growth and many more.
+The **Wellness Retreat** application is a **React-based web app** designed to help users discover and explore **yoga boot camps** and wellness retreats. These courses focus on **mental and physical well-being**, including:
 
+- **Mental Wellness**
+- **Chronic Pain Management**
+- **Stress Relief Camps**
+- **Weight Loss Courses**
+- **Pre/Post Natal Yoga & Detox Retreats**
+- **Spiritual Growth** and many more!
 
-The app features search and filter functionalities, along with pagination to manage and view a list of retreats. It also includes a card-based layout for displaying retreat details such as location, date, and price for each course.
+The app features **search and filter functionalities**, along with **pagination** for browsing retreats. A **card-based layout** presents retreat details such as **location, date, price**, and more.
 
 ## Features
-1. Search: Search for retreats by title.
-2. Filter: Filter retreats by tags and year.
-3. Pagination: Navigate through pages of retreats.
-4. Responsive Design: Optimized for various screen sizes.
 
+1. **Search**: Find retreats by title.
+2. **Filter**: Filter retreats by tags and year.
+3. **Pagination**: Navigate through multiple retreat pages.
+4. **Responsive Design**: Optimized for various screen sizes.
 
 ## Installation
+
 To run this project locally, follow these steps:
 
-1. Clone the Repository
-```git clone https://github.com/your-username/wellness-retreats.git```
+### 1. Clone the Repository
 
-2. Navigate to the Project Directory
-```cd wellness-retreats```
+```sh
+git clone https://github.com/your-username/wellness-retreats.git
+```
 
-3. Install Dependencies: To install all the dependencies, use this command or simply type “npm i"
-```npm install```
+### 2. Navigate to the Project Directory
 
-4. Run the Development Server
-```npm start```
+```sh
+cd wellness-retreats
+```
 
-The app will be available at http://localhost:3000.
+### 3. Install Dependencies
 
-## Tech Stack
-- React
-- HTML and CSS
-- Axios for API requests
-- JavaScript
+```sh
+npm install
+```
 
-  
-## API
-The app fetches retreat data from the following API endpoint:
-`GET https://669f704cb132e2c136fdd9a0.mockapi.io/api/v1/retreats`
+### 4. Run the Development Server
+
+```sh
+npm start
+```
+
+The app will be available at **[http://localhost:3000](http://localhost:3000)**.
+
+---
+
+## API Integration
+
+The app fetches **retreat data** from a **local JSON Server** to simulate backend behavior. In this case, db.json file serves this purpose.
+
+### 1. Install JSON Server (if not installed)
+
+```sh
+npm install -g json-server
+```
+
+
+
+### 3. Start JSON Server
+
+Run the following command to start the server:
+
+```sh
+json-server --watch db.json --port 3001
+```
+
+The API will be available at:
+
+```
+http://localhost:3001/retreats
+```
+
+---
+
+## API Endpoints
+
+- **Get all retreats:**
+  ```
+  GET /retreats
+  ```
+- **Get a specific retreat:**
+  ```
+  GET /retreats/:id
+  ```
+- **Add a new retreat:**
+  ```
+  POST /retreats
+  ```
+- **Update a retreat:**
+  ```
+  PUT /retreats/:id
+  ```
+- **Delete a retreat:**
+  ```
+  DELETE /retreats/:id
+  ```
+
+---
 
 ## Usage
-- Search: Enter text in the search bar to find retreats by title.
-- Filter: Use the dropdowns to filter by tag and year.
-- Pagination: Use the Previous and Next buttons to navigate through pages.
+
+- **Search**: Enter text in the search bar to find retreats by title.
+- **Filter**: Use the dropdown menus to filter by tag and year.
+- **Pagination**: Use the **Previous** and **Next** buttons to navigate through pages.
+- **Real Images**: The app uses **Unsplash API** for real images. Update the `image` field in `db.json` for custom images.
+
+---
+
+## Tech Stack
+
+- **React** (Frontend framework)
+- **HTML & CSS** (Styling)
+- **Axios** (API requests)
+- **JavaScript** (Core functionality)
+- **JSON Server** (Mock backend for API testing)
+
+---
+
+## Notes
+
+- Restart the JSON Server after modifying `db.json`.
+- Use **Postman** or **cURL** to test API requests.
+
+---
+
