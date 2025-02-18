@@ -12,8 +12,7 @@
 ## Installation
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/your-username/wellness-retreats.git
-   cd wellness-retreats
+   git clone https://github.com/shivani091995/WellnessRetreat.git
    ```
 2. **Install dependencies**:
    ```sh
