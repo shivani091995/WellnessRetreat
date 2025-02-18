@@ -8,6 +8,8 @@
   flex-direction: column;
   background: url('./components/lantern.jpeg') no-repeat center center fixed;
   background-size: cover;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .header {
@@ -44,6 +46,7 @@
 
 .filter-container {
   margin: 1rem;
+  margin-top: 30px;
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -188,3 +191,29 @@
   position: relative;
   bottom: 0;
 }
+
+
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2A0944;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2A0944;
+}
+
+::-webkit-scrollbar-corner {
+  background: #f1f1f1;
+}
+
