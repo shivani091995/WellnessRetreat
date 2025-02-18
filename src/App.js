@@ -18,13 +18,22 @@ const App = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await axios.get('http://localhost:3001/retreats');
-      setRetreats(response.data);
-      setFilteredRetreats(response.data);
-      setResultsCount(response.data.length);
+      try {
+        const response = await axios.get('/db.json');
+        console.log("Fetched Data:", response.data); // Debugging
+        setRetreats(response.data.retreats || []);  // Extract 'retreats' key
+        setFilteredRetreats(response.data.retreats || []);
+        setResultsCount(response.data.retreats ? response.data.retreats.length : 0);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+        setRetreats([]);
+        setFilteredRetreats([]);
+        setResultsCount(0);
+      }
     };
     fetchData();
   }, []);
+  
 
   useEffect(() => {
     let results = retreats;

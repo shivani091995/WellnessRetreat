@@ -1,133 +1,50 @@
 # Wellness Retreat
 
 ## Description
-
-The **Wellness Retreat** application is a **React-based web app** designed to help users discover and explore **yoga boot camps** and wellness retreats. These courses focus on **mental and physical well-being**, including:
-
-- **Mental Wellness**
-- **Chronic Pain Management**
-- **Stress Relief Camps**
-- **Weight Loss Courses**
-- **Pre/Post Natal Yoga & Detox Retreats**
-- **Spiritual Growth** and many more!
-
-The app features **search and filter functionalities**, along with **pagination** for browsing retreats. A **card-based layout** presents retreat details such as **location, date, price**, and more.
+**Wellness Retreat** is a **React web app** that helps users discover **yoga boot camps** and **wellness retreats** focused on **mental and physical well-being**.
 
 ## Features
-
-1. **Search**: Find retreats by title.
-2. **Filter**: Filter retreats by tags and year.
-3. **Pagination**: Navigate through multiple retreat pages.
-4. **Responsive Design**: Optimized for various screen sizes.
+- **Search & Filter**: Find retreats by title, tags, and year.
+- **Pagination**: Browse retreats across multiple pages.
+- **Responsive Design**: Works on all screen sizes.
+- **Static Data**: Retreat data is fetched from `public/db.json`.
 
 ## Installation
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/your-username/wellness-retreats.git
+   cd wellness-retreats
+   ```
+2. **Install dependencies**:
+   ```sh
+   npm install
+   ```
+3. **Start the development server**:
+   ```sh
+   npm start
+   ```
+   The app will run at **http://localhost:3000**.
 
-To run this project locally, follow these steps:
-
-### 1. Clone the Repository
-
-```sh
-git clone https://github.com/your-username/wellness-retreats.git
-```
-
-### 2. Navigate to the Project Directory
-
-```sh
-cd wellness-retreats
-```
-
-### 3. Install Dependencies
-
-```sh
-npm install
-```
-
-### 4. Run the Development Server
-
-```sh
-npm start
-```
-
-The app will be available at **[http://localhost:3000](http://localhost:3000)**.
-
----
-
-## API Integration
-
-The app fetches **retreat data** from a **local JSON Server** to simulate backend behavior. In this case, db.json file serves this purpose.
-
-### 1. Install JSON Server (if not installed)
-
-```sh
-npm install -g json-server
-```
-
-
-
-### 3. Start JSON Server
-
-Run the following command to start the server:
-
-```sh
-json-server --watch db.json --port 3001
-```
-
-The API will be available at:
-
-```
-http://localhost:3001/retreats
-```
-
----
-
-## API Endpoints
-
-- **Get all retreats:**
-  ```
-  GET /retreats
-  ```
-- **Get a specific retreat:**
-  ```
-  GET /retreats/:id
-  ```
-- **Add a new retreat:**
-  ```
-  POST /retreats
-  ```
-- **Update a retreat:**
-  ```
-  PUT /retreats/:id
-  ```
-- **Delete a retreat:**
-  ```
-  DELETE /retreats/:id
-  ```
-
----
-
-## Usage
-
-- **Search**: Enter text in the search bar to find retreats by title.
-- **Filter**: Use the dropdown menus to filter by tag and year.
-- **Pagination**: Use the **Previous** and **Next** buttons to navigate through pages.
-- **Real Images**: The app uses **Unsplash API** for real images. Update the `image` field in `db.json` for custom images.
-
----
+## JSON Server (For Testing)
+For local testing with a mock backend, use JSON Server:
+1. **Install JSON Server**:
+   ```sh
+   npm install -g json-server
+   ```
+2. **Start the server**:
+   ```sh
+   json-server --watch db.json --port 3001
+   ```
+3. **API Endpoints**:
+   - `GET /retreats` (All retreats)
+   - `GET /retreats/:id` (Single retreat)
+   - `POST /retreats` (Add a retreat)
+   - `PUT /retreats/:id` (Update a retreat)
+   - `DELETE /retreats/:id` (Remove a retreat)
 
 ## Tech Stack
-
-- **React** (Frontend framework)
-- **HTML & CSS** (Styling)
+- **React** (Frontend)
+- **CSS** (Styling)
 - **Axios** (API requests)
-- **JavaScript** (Core functionality)
-- **JSON Server** (Mock backend for API testing)
-
----
-
-## Notes
-
-- Restart the JSON Server after modifying `db.json`.
-- Use **Postman** or **cURL** to test API requests.
-
----
+- **JSON Server** (Mock backend for testing)
 
